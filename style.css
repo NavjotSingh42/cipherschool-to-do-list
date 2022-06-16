@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 61);
+}
+
+body{
+    position: absolute;
+    height:35%;
+    width: 650px;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 15px;
+    background: rgb(211, 108, 108);
+    border-radius: 10px;
+}
+
+#newtask input{
+    background-color: white;
+    border-radius: 10px;
+    width: 75%;
+    height: 45px;
+    font-size: 15px;
+    border: 3px solid rgb(29, 29, 61);
+    padding: 12px;
+    color: rgb(29, 29, 61);
+    font-weight: 500;
+    position: relative;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: rgb(137, 11, 11);
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 125px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    background: rgb(137, 11, 11);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#tasks{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    background: rgb(211, 108, 108);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.task{
+    color: aqua;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+}
+
+.task span{
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
